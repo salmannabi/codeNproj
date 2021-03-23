@@ -1,0 +1,46 @@
+html, body {
+    font-size: 12;
+}
+
+header {
+    background-color: goldenrod;
+}
+
+#left-header {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+main nav {
+    width: 12%;
+    height: 80vh;
+    background-color: rgb(200, 200, 200);
+}
+
+main nav h2 {
+    margin-bottom: 0;
+}
+
+main nav ul {
+    list-style: none;
+    margin-left: -2.2rem;
+    margin-top: 0.4rem;
+}
+
+#nav-li li {
+    padding: 0.25rem 0.4rem;
+}
+
+#nav-li li:hover {
+    background-color: lightgray;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links:visited {
+    color: black;
+}
