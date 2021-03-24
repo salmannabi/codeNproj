@@ -29,7 +29,7 @@ main {
 }
 
 main iframe {
-    width: 80%;
+    width: 88%;
     height: calc(100vh - 140px);
     border: none;
 }
