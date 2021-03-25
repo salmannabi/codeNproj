@@ -1,0 +1,69 @@
+html, body {
+    font-size: 12;
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-color: #283593;
+}
+
+.header_text {
+    color: white;
+}
+
+.header_text:visited {
+    color: white;
+}
+
+#left_header {
+    float: left;
+    width: 50%;
+    padding-left: 3rem;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-start;
+}
+
+main iframe {
+    width: 88%;
+    height: calc(100vh - 140px);
+    border: none;
+}
+
+main nav {
+    width: 12%;
+    height: calc(100vh - 140px);
+    background-color: #3F51B5;
+    padding-left: 1rem;
+}
+
+main nav h2 {
+    margin-bottom: 0;
+}
+
+main nav ul {
+    list-style: none;
+    margin-left: -2.2rem;
+    margin-top: 0.4rem;
+}
+
+#nav_li li {
+    padding: 0.25rem 0.4rem;
+}
+
+#nav_li li:hover {
+    background-color: #9FA8DA;
+}
+
+.nav_links {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links:visited {
+    color: white;
+}
