@@ -10,16 +10,26 @@ header {
 
 .header_text {
     color: white;
+    text-decoration: none;
 }
 
 .header_text:visited {
     color: white;
 }
 
+body header a {
+    display: inline-flex;
+    flex-flow: row;
+}
+
 #left_header {
     float: left;
-    width: 50%;
+    width: 50vw;
     padding-left: 3rem;
+}
+
+#right_header {
+    margin-top: 0.2rem;
 }
 
 main {
