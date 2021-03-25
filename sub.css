@@ -44,3 +44,8 @@ p {
     height: 7rem;
     padding: 0 1rem;
 }
+
+#about_me_head {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
